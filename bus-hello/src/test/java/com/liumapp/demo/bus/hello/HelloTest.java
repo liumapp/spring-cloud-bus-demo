@@ -22,10 +22,11 @@ public class HelloTest {
     private Sender sender;
 
     /**
+     * plz start the main project first .
      * you can find msg sender send the msg .
      * and msg receiver had received the msg .
      * this will be logged in your console .
-     * @throws Exception
+     * @throws Exception send exception
      */
     @Test
     public void hello () throws Exception {
