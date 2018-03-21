@@ -33,9 +33,9 @@
 	</developers>
 
 	<modules>
-    <module>bus-hello</module>
-    <module>bus-eureka</module>
-  </modules>
+		<module>bus-hello</module>
+		<module>bus-eureka</module>
+	</modules>
 
 	<dependencyManagement>
 		<dependencies>
