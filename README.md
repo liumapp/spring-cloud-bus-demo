@@ -13,4 +13,6 @@ A simple demo for Spring Cloud Bus .
     
     you can find this in rabbitMq's web pannel , like this : 
     
-     
+    ![connections.jpg](https://github.com/liumapp/spring-cloud-bus-demo/blob/master/pic/connections.jpg) 
+    
+    

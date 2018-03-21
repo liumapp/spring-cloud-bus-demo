@@ -21,6 +21,12 @@ public class HelloTest {
     @Autowired
     private Sender sender;
 
+    /**
+     * you can find msg sender send the msg .
+     * and msg receiver had received the msg .
+     * this will be logged in your console .
+     * @throws Exception
+     */
     @Test
     public void hello () throws Exception {
         sender.send();
