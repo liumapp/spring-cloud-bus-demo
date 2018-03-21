@@ -16,8 +16,7 @@
 		</developer>
 	</developers>
 
-
   <modules>
-    <module>bus-eureka</module>
+
   </modules>
 </project>
