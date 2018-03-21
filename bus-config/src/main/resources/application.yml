@@ -1,11 +1,11 @@
 spring:
   application:
-    name: config-archetype
+    name: bus-config
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/liumapp/single-config-archetype/
+          uri: https://github.com/liumapp/spring-cloud-bus-demo/
           search-paths: config
 
 server:
