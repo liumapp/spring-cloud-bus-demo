@@ -36,6 +36,7 @@
 		<module>bus-hello</module>
 		<module>bus-eureka</module>
     <module>bus-config</module>
+    <module>bus-gateway</module>
   </modules>
 
 	<dependencyManagement>
