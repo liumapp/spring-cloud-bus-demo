@@ -8,13 +8,10 @@
 		<version>1.5.6.RELEASE</version>
 	</parent>
 
-	<groupId>com.liumapp.demo.bus</groupId>
-	<artifactId>spring-cloud-bus-demo</artifactId>
+	<groupId>com.liumapp.demo.bus.service</groupId>
+	<artifactId>bus-service</artifactId>
 	<version>v1.0.0</version>
 	<packaging>pom</packaging>
-
-	<name>spring-cloud-bus-demo</name>
-	<url>http://www.liumapp.com</url>
 
 	<properties>
 		<spring-cloud.version>Dalston.SR2</spring-cloud.version>
@@ -32,14 +29,6 @@
 		</developer>
 	</developers>
 
-	<modules>
-		<module>bus-hello</module>
-		<module>bus-eureka</module>
-		<module>bus-config</module>
-		<module>bus-gateway</module>
-    <module>bus-service</module>
-  </modules>
-
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -51,4 +40,8 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+  <modules>
+    <module>demo-api-a</module>
+    <module>demo-api-b</module>
+  </modules>
 </project>
