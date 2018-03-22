@@ -6,6 +6,3 @@ eureka:
     fetch-registry: false
     service-url:
       defaultZone: http://localhost:1234/eureka/
-spring:
-  application:
-    name: bus-eureka
