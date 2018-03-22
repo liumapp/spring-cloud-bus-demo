@@ -24,7 +24,7 @@ public class JobController {
     @RequestMapping("/")
     public String beginJob () {
         JobInfo jobInfo = new JobInfo("test-app-from-demo-b" , "dfjifjisdjfiwjfeio");
-        amqpTemplate.convertAndSend("long-time-job" , JSON.toJSON(jobInfo));
+        amqpTemplate.convertAndSend("long-time-job" , JSON.toJSONString(jobInfo));
         return "success";
     }
 
