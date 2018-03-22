@@ -13,13 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 3/21/18
  */
 @RestController
-@RequestMapping("/")
+@RequestMapping("/hello")
 public class IndexController {
 
     @Value("${custom.activeInfo}")
     private String activeInfo;
 
-    @RequestMapping("")
+    @RequestMapping("/")
     public String index () {
         return "hello , this is demo api a and active info is : " + activeInfo;
     }
