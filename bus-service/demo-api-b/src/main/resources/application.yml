@@ -5,7 +5,7 @@ spring:
     config:
       discovery:
         enabled: true
-        serviceId: your_eureka_serviceId
+        serviceId: bus-config
       profile: dev
       label: master
 server:
