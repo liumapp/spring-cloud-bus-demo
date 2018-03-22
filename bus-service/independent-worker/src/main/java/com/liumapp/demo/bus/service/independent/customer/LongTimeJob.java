@@ -1,5 +1,6 @@
 package com.liumapp.demo.bus.service.independent.customer;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,4 +12,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class LongTimeJob {
+
+
+
 }
