@@ -8,12 +8,10 @@ spring:
         serviceId: bus-config
       profile: dev
       label: master
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: springcloud
-    password: 123456
 server:
   port: 8081
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1234/eureka/
 

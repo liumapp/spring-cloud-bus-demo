@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 3/21/18
  */
 @RestController
-@RequestMapping("/hello")
+@RequestMapping("hello")
 public class IndexController {
 
     @Value("${custom.activeInfo}")

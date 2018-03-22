@@ -3,7 +3,6 @@ package com.liumapp.demo.bus.engine.job;
 import com.liumapp.demo.bus.engine.job.component.DetailJob;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
 
 /**
  * @author liumapp

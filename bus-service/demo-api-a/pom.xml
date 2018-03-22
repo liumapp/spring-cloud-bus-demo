@@ -34,6 +34,11 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-config</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.liumapp.demo.bus.engine.job</groupId>
+      <artifactId>long-time-job</artifactId>
+      <version>v1.0.0</version>
+    </dependency>
   </dependencies>
 
   <build>
