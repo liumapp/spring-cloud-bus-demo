@@ -3,20 +3,15 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.6.RELEASE</version>
+		<groupId>com.liumapp.demo.bus</groupId>
+		<artifactId>spring-cloud-bus-demo</artifactId>
+		<version>v1.0.0</version>
 	</parent>
 
 	<groupId>com.liumapp.demo.bus.engine</groupId>
 	<artifactId>bus-engine</artifactId>
 	<version>v1.0.0</version>
 	<packaging>pom</packaging>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-	</properties>
 
 	<developers>
 		<developer>
@@ -28,7 +23,6 @@
 	</developers>
 
   <modules>
-    <module>tool-a</module>
-    <module>model</module>
+	  <module>long-time-job</module>
   </modules>
 </project>

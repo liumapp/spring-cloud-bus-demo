@@ -8,12 +8,12 @@
     <version>v1.0.0</version>
   </parent>
 
-  <groupId>com.liumapp.demo.bus.engine.toola</groupId>
-  <artifactId>tool-a</artifactId>
+  <groupId>com.liumapp.demo.bus.engine.job</groupId>
+  <artifactId>long-time-job</artifactId>
   <version>v1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>tool-a</name>
+  <name>long-time-job</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>
