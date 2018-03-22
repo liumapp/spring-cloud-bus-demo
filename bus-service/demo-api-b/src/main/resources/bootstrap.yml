@@ -8,6 +8,11 @@ spring:
         serviceId: bus-config
       profile: dev
       label: master
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: springcloud
+    password: 123456
 server:
   port: 8082
 eureka:
