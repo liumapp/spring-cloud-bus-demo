@@ -25,6 +25,6 @@
 	<modules>
 		<module>demo-api-a</module>
 		<module>demo-api-b</module>
-    <module>independent-worker</module>
-  </modules>
+    	<module>independent-worker</module>
+    </modules>
 </project>

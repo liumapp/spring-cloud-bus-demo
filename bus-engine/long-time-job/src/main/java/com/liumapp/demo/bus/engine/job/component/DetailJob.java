@@ -1,5 +1,8 @@
 package com.liumapp.demo.bus.engine.job.component;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.liumapp.demo.bus.engine.job.entity.JobInfo;
 import com.liumapp.demo.bus.engine.job.runnable.Job;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,8 +20,11 @@ public class DetailJob {
 
     private Logger logger = LoggerFactory.getLogger(DetailJob.class);
 
-    public void run () throws InterruptedException {
+    public void run (String info) throws InterruptedException {
+        JobInfo jobInfo = JSON.parseObject(info , JobInfo.class);
+        jobInfo.setAppId(jobInfo.getAppId() + "-updated");
         Job job = new Job();
+        job.setJobInfo(jobInfo);
         Thread jobThread = new Thread(job);
         jobThread.start();
         Thread.sleep(10 * 1000);
