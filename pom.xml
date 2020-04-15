@@ -3,9 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.6.RELEASE</version>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-build</artifactId>
+		<version>2.1.9.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
 	<groupId>com.liumapp.demo.bus</groupId>
@@ -15,13 +16,6 @@
 
 	<name>spring-cloud-bus-demo</name>
 	<url>http://www.liumapp.com</url>
-
-	<properties>
-		<spring-cloud.version>Dalston.SR2</spring-cloud.version>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
-	</properties>
 
 	<developers>
 		<developer>
@@ -33,23 +27,8 @@
 	</developers>
 
 	<modules>
-		<module>bus-hello</module>
-		<module>bus-eureka</module>
-		<module>bus-config</module>
-		<module>bus-gateway</module>
-    <module>bus-service</module>
-    <module>bus-engine</module>
-  </modules>
+		<module>spring-cloud-bus</module>
+		<module>spring-cloud-stream-binder-kafka</module>
+	</modules>
 
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 </project>
